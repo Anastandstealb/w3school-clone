@@ -89,6 +89,11 @@ header{
 #dark{
     padding: 10px;
     transform: translateX(-35px);
+    margin-left: 10px;
+}
+#dark:hover{
+    background-color: #dcdada;
+    border-radius: 50px;
 }
 #down{
     padding: 5px;

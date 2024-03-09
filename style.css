@@ -91,6 +91,10 @@ header{
     transform: translateX(-35px);
     margin-left: 10px;
 }
+#mag:hover{
+    background-color: #dcdada;
+    border-radius: 50px;
+}
 #dark:hover{
     background-color: #dcdada;
     border-radius: 50px;
@@ -163,6 +167,10 @@ header{
     padding-right: 20px;
 }
 .main-right .log:hover{
+    background-color: #00895b;
+    color:white ;
+}
+.main-right .sig:hover{
     background-color: #00895b;
     color:white ;
 }

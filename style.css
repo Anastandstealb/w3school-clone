@@ -22,13 +22,15 @@ header{
     height: 60px;
     background-color: rgb(255, 255, 255);
 }
+/* img section */
 .logo{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 70px;
+    width: 65px;
+    padding-top: 5px;
     /* height: 50px; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
 }
 .logo .logo-img{
@@ -37,6 +39,8 @@ header{
     object-fit: contain;
     align-content: center;
 }
+/* img done */
+
 .main-header{
     padding: 0 10px 0 10px;
     display: flex;
@@ -46,6 +50,9 @@ header{
     height: 60px;
     width: 100%;
 }
+
+/* left secton start */
+
 .main-left{
     display: flex;
     flex-direction: row;
@@ -55,7 +62,7 @@ header{
 }
 .main-left a{
     display: flex;
-    font-size: 1rem;
+    font-size: 16px;
     /* border: 2px solid darkgreen; */
     /* min-height:100%; */
     color: rgb(0, 0, 0);
@@ -86,25 +93,71 @@ header{
 #down{
     padding: 5px;
 }
-.main-right{
-    display: flex;
-    flex-direction: row;
-    background-color: lightpink;
+#own{
+    padding: 5px;
+    color: #9663f6;
 }
 
 .text-con{
-        display:flex ;
-        flex-direction: row;
-        padding: 10px;
+    display:flex ;
+    flex-direction: row;
+    padding: 10px ;
+    /* outline: none; */
 }
 .text-inp{
-    border: 2px solid grey;
+    border:  solid rgba(0, 0, 0, 0.25) ;
     border-radius: 50px;
-    padding: 10px;
+    padding: 9px 31px 10px 19px;
+    outline: none;
     font-style: italic;
 }
 .text-inp:focus{
-    border: 3px solid rgb(42, 195, 136);
+    border: 3.5px solid rgb(42, 195, 136);
     outline: none;
 }
+/* left secton done */
 
+/* Right secton start */
+
+.main-right{
+    display: flex;
+    flex-direction: row;
+    /* background-color: lightpink; */
+}
+
+.main-right a{
+    display: flex;
+    color: rgb(0, 0, 0);
+    padding:9px 11px;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+.main-right a:hover{
+    background-color: #dcdada;
+    border-radius: 50px;
+}
+.main-right .sig{
+    font-size: 1.1rem;
+    border-radius: 60px;
+    /* padding: 1px 1px ÷1px 1px; */
+    color: white;
+    background-color: #019a68;
+    transform: translatex(40px);
+    z-index: 5;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.main-right .log{
+    font-size: 1.1rem;
+    border-radius: 50px;
+    /* padding: 1px 1px ÷1px 1px; */
+    color: rgb(0, 0, 0);
+    background-color: #d9eee1;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.main-right .log:hover{
+    background-color: #00895b;
+    color:white ;
+}

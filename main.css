@@ -15,9 +15,7 @@
     box-sizing: border-box;
 }
 main .herosection{
-    background-image: url(https://www.w3schools.com/images/lynx_in_space.png), url(https://www.w3schools.com/images/background_in_space.gif);
-    background-repeat: no-repeat;
-    background-position: center right 12rem ,center;
+    background-image: url(https://www.w3schools.com/images/background_in_space.gif);
     background-color: #282a35;
     height: 55vh;
     display: flex;
@@ -26,16 +24,26 @@ main .herosection{
     align-items: center;
     font-family:'Open Sans', sans-serif;
 }
+.astro-con{
+    display: flex;
+    margin-bottom: -220px;
+
+}
+.astro-con img{
+    position: relative;
+    transform: translate(590px ,-28px);
+}
 .herosection h1{
     margin-top: -60px;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
     color: white;
 }
 .herosection h3{
     color: #FFF4A3;
     font-weight: 700;
-    margin-top: 10px!important;
+    margin-top: 28px!important;
+    margin-bottom: -15px!important;
     font-size: 20px;
 }
 .herosection .search-bar{
@@ -61,7 +69,7 @@ main .herosection{
 #mag-hero{
 
 }
-button{
+#hero{
     border-radius: 224px;
     /* float: left; */
     width: 15%;
@@ -76,9 +84,18 @@ button{
     border-bottom-left-radius: 0;
     z-index: 5;
 }
-#ig{
+.spacer{
+    aspect-ratio: 960/540;
     width: 100%;
-    height: 12vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#ig{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transform: translateY(10px);
 }
 #notsure{
     color:white;

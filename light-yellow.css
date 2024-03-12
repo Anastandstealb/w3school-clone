@@ -5,8 +5,8 @@
     --primary-color: #ffffff;
     --main-font: "Open Sans"
 }
-.light-green{
-    background-color: #D9EDE1;
+.light-yellow{
+    background-color: #FFF3A3;
     height: 65vh;
     display: flex;
     flex-direction: row;
@@ -15,22 +15,22 @@
     font-family:'Open Sans', sans-serif;
     padding-top: 80px;
 }
-.light-green img{
+.light-yellow img{
     width: 450px;
     height: 431px;
     /* padding-left: 25px; */
 }
-.light-green .text{
+.light-yellow .text{
     width: 600px;
     /* padding-right: 15px; */
 }
-.light-green h1{
+.light-yellow h1{
     font-size: 90px;
     font-weight: 700;
     margin-top: -70px!important;
     text-align: center;
 }
-.light-green p{
+.light-yellow p{
     margin-top: 1.2em;
     margin-bottom: 1.2em;
     font-size: 17px;
@@ -52,8 +52,8 @@
     padding: 10px 1px;
     border-radius: 50px;
     margin-top: 15px;
-    border: none;    f
-    ont-style: var(--main-font);
+    border: none;    
+    font-style: var(--main-font);
     font-weight: 600;
 }
 #html{
@@ -70,7 +70,8 @@
     padding: 10px 1px;
     border-radius: 50px;
     margin-top: 15px;
-    border: none;    font-style: var(--main-font);
+    border: none;    
+    font-style: var(--main-font);
     font-weight: 600;
 
 }
@@ -104,7 +105,9 @@
     font-size: 18px;
     padding: 10px 1px;
     border-radius: 50px;
-    margin-top: 15px;    border: none;    font-style: var(--main-font);
+    margin-top: 15px;    
+    border: none;    
+    font-style: var(--main-font);
     font-weight: 600;
 
 }

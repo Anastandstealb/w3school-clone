@@ -94,10 +94,12 @@ header{
 #mag:hover{
     background-color: #dcdada;
     border-radius: 50px;
+    cursor: pointer;
 }
 #dark:hover{
     background-color: #dcdada;
     border-radius: 50px;
+    cursor: pointer;
 }
 #down{
     padding: 5px;

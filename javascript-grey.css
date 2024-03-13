@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --main-color: #000000;
+    --primary-color: #ffffff;
+    --main-font: "Open Sans"
+}
+.javascript-grey{
+    background-color: #272A35;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family:'Open Sans', sans-serif;
+    padding-top: 80px;
+}
+.javascript-grey img{
+    width: 450px;
+    height: 431px;
+    /* padding-left: 25px; */
+}
+.javascript-grey .text{
+    width: 600px;
+    /* padding-right: 15px; */
+}
+.javascript-grey h1{
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+    margin-top: -70px!important;
+    text-align: center;
+}
+.javascript-grey p{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    font-style: 'Open Sans';
+    font-weight: 700;
+}
+#htmll-javascript{
+    margin: auto;
+    background-color: #04A96D;
+    width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 1px;
+    border-radius: 50px;
+    margin-top: 15px;
+    border: none;    
+    font-style: var(--main-font);
+    font-weight: 550;
+}
+#html-javascript{
+    margin: auto;
+    background-color: #FFFFFF;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 1px;
+    border-radius: 50px;
+    margin-top: 15px;
+    border: none;    
+    font-style: var(--main-font);
+    font-weight: 550;
+
+}
+#htm-javascript{
+    margin: auto;
+    background-color: #FEC0C7;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 1px;
+    border-radius: 50px;
+    margin-top: 15px;    border: none;
+    font-style: var(--main-font);
+    font-weight: 550;
+}
+
+#ht-css{
+    margin: auto;
+    background-color: #FEC0C7;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 1px;
+    border-radius: 50px;
+    margin-top: 15px;    
+    border: none;    
+    font-style: var(--main-font);
+    font-weight: 550;
+
+}

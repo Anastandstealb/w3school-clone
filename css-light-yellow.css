@@ -5,8 +5,8 @@
     --primary-color: #ffffff;
     --main-font: "Open Sans"
 }
-.light-green{
-    background-color: #D9EDE1;
+.css-light-yellow{
+    background-color: #FFF3A3;
     height: 65vh;
     display: flex;
     flex-direction: row;
@@ -15,22 +15,22 @@
     font-family:'Open Sans', sans-serif;
     padding-top: 80px;
 }
-.light-green img{
+.css-light-yellow img{
     width: 450px;
     height: 431px;
     /* padding-left: 25px; */
 }
-.light-green .text{
+.css-light-yellow .text{
     width: 600px;
     /* padding-right: 15px; */
 }
-.light-green h1{
+.css-light-yellow h1{
     font-size: 90px;
     font-weight: 700;
     margin-top: -70px!important;
     text-align: center;
 }
-.light-green p{
+.css-light-yellow p{
     margin-top: 1.2em;
     margin-bottom: 1.2em;
     font-size: 17px;
@@ -38,60 +38,44 @@
     font-style: 'Open Sans';
     font-weight: 700;
 }
-#htmll{
+#htmll-css{
     margin: auto;
     background-color: #04A96D;
+    width: 200px;
     color: white;
-    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px 1px;
     border-radius: 50px;
     margin-top: 15px;
-    border: none;    f
-    ont-style: var(--main-font);
-    font-weight: 600;
+    border: none;    
+    font-style: var(--main-font);
+    font-weight: 550;
 }
-#html{
-    margin: auto;
-    background-color: #FFF3A3;
-    color: rgb(0, 0, 0);
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 18px;
-    padding: 10px 1px;
-    border-radius: 50px;
-    margin-top: 15px;
-    border: none;    font-style: var(--main-font);
-    font-weight: 600;
-
-}
-#htm{
+#html-css{
     margin: auto;
     background-color: #272A35;
-    color: white;
+    color: rgb(255, 255, 255);
     width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px 1px;
     border-radius: 50px;
-    margin-top: 15px;    border: none;
+    margin-top: 15px;
+    border: none;    
     font-style: var(--main-font);
-    font-weight: 600;
+    font-weight: 550;
+
 }
-#ht{
+#htm-css{
     margin: auto;
     background-color: #FEC0C7;
     color: rgb(0, 0, 0);
@@ -101,10 +85,30 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px 1px;
     border-radius: 50px;
-    margin-top: 15px;    border: none;    font-style: var(--main-font);
-    font-weight: 600;
+    margin-top: 15px;    border: none;
+    font-style: var(--main-font);
+    font-weight: 550;
+}
+
+#ht-css{
+    margin: auto;
+    background-color: #FEC0C7;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 1px;
+    border-radius: 50px;
+    margin-top: 15px;    
+    border: none;    
+    font-style: var(--main-font);
+    font-weight: 550;
 
 }

@@ -5,8 +5,8 @@
     --primary-color: #ffffff;
     --main-font: "Open Sans"
 }
-.light-yellow{
-    background-color: #FFF3A3;
+.python-white{
+    Background-color: #F3ECE9;
     height: 65vh;
     display: flex;
     flex-direction: row;
@@ -15,70 +15,72 @@
     font-family:'Open Sans', sans-serif;
     padding-top: 80px;
 }
-.light-yellow img{
+.python-white img{
     width: 450px;
     height: 431px;
     /* padding-left: 25px; */
 }
-.light-yellow .text{
+.python-white .text{
     width: 600px;
     /* padding-right: 15px; */
 }
-.light-yellow h1{
+.python-white h1{
     font-size: 90px;
     font-weight: 700;
+    color: rgb(0, 0, 0);
     margin-top: -70px!important;
     text-align: center;
 }
-.light-yellow p{
+.python-white p{
     margin-top: 1.2em;
     margin-bottom: 1.2em;
     font-size: 17px;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-style: 'Open Sans';
     font-weight: 700;
 }
-#htmll{
+#htmll-python{
     margin: auto;
     background-color: #04A96D;
+    width: 200px;
     color: white;
-    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 1px;
     border-radius: 50px;
     margin-top: 15px;
     border: none;    
     font-style: var(--main-font);
-    font-weight: 600;
+    font-weight: 550;
 }
-#html{
+#html-python{
     margin: auto;
-    background-color: #FFF3A3;
-    color: rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 1px;
     border-radius: 50px;
     margin-top: 15px;
     border: none;    
     font-style: var(--main-font);
-    font-weight: 600;
+    font-weight: 550;
 
 }
-#htm{
+#htm-python{
     margin: auto;
-    background-color: #272A35;
-    color: white;
+    background-color: #FEC0C7;
+    color: rgb(0, 0, 0);
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -90,9 +92,10 @@
     border-radius: 50px;
     margin-top: 15px;    border: none;
     font-style: var(--main-font);
-    font-weight: 600;
+    font-weight: 550;
 }
-#ht{
+
+#ht-python{
     margin: auto;
     background-color: #FEC0C7;
     color: rgb(0, 0, 0);
@@ -108,6 +111,6 @@
     margin-top: 15px;    
     border: none;    
     font-style: var(--main-font);
-    font-weight: 600;
+    font-weight: 550;
 
 }

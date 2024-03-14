@@ -119,12 +119,10 @@ header{
     border:  solid rgba(0, 0, 0, 0.25) ;
     border-radius: 50px;
     padding: 9px 31px 10px 19px;
-    outline: none;
     font-style: italic;
 }
 .text-inp:focus{
-    border: 3.5px solid rgb(42, 195, 136);
-    outline: none;
+    outline: 3.5px solid rgb(42, 195, 136);
 }
 /* left secton done */
 

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --main-color: #000000;
+    --primary-color: #ffffff;
+    --main-font: "Open Sans"
+}
+
+/* start of the language container */
+.cards-s{
+    display: flex;
+    padding: 100px 60px;
+    background-color: #272A35;
+    gap: 80px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px 100px 100px 100px; */
+}
+.cards-s .card-cont{
+    width: 40%;
+    padding: 50px 110px;
+    text-align: center;
+    background-color: #FEC0C7;
+    /* margin: 0px 10px 0 10px; */
+}
+.cards-s .card-conte{
+    width: 20%;
+    padding: 50px 100px;
+    text-align: center;
+    background-color: #FEC0C7;
+    /* margin: 0px 10px 0 10px; */
+}
+.cards-s .card-cont h1{
+    font-size: 25px;
+    font-family: var(--main-font);
+}
+#c-x {
+    background-color: #EADF98;
+}
